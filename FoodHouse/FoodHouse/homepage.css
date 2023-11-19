@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  font-family: Poppins, sans-serif;;
+}
+
+section{
+  background-image: url(./img/60214c3425b362b4335946c3_waves-hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: hsl(240, 8%, 3%);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding: 45px 15%;
+ 
+ 
+}
+
+.nav-list li{
+  
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+li a{
+  text-decoration: none;
+}
+

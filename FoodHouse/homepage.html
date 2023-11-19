@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <title>Foodhouse</title>
+    <meta
+      name="description"
+      content=""
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="homepage.css"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="img/logo.svg"
+        alt="Logo"
+      />
+
+      <nav class="nav-list">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html"></a>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="first-section">
+      <div class="wrapper-info">
+        <div class="enjoy-text">
+          <h1 class="enjoy-healthy">Enjoy healthy and<br />delicious food.</h1>
+          <p>
+            The finest flavors of wholesome and delightful cuisine. Indulge in a
+            blend of <br />
+            nourishing delights that elevate your experience.
+          </p>
+        </div>
+
+        <div class="call">
+          <a href="">
+            <img
+              src="img/call-icon.svg"
+              alt="call icon"
+            />
+            <p>Order now</p>
+          </a>
+          <p class="contact-num">+63 945 678 9640</p>
+        </div>
+
+        <div class="social-links">
+          <img
+            src="img/twitter-icon.svg"
+            alt="twitter logo"
+          />
+          <img
+            src="img/facebook.svg"
+            alt="facebook logo"
+          />
+          <img
+            src="img/instagram.svg"
+            alt="instagram logo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="features">
+        <div class="feature-wrapper">
+          <div class="vertical-line"></div>
+          <img
+            src="img/section2/noun-salad.svg"
+            alt="salad"
+          />
+          <p class="bold">Quality Food</p>
+          <p class="gray-text">
+            Our food is always fresh and delicious, and we offer a wide variety
+            of options to choose from.
+          </p>
+        </div>
+
+        <div class="feature-wrapper middle">
+          <div class="vertical-line"></div>
+          <img
+            src="img/section2/noun-leaf.svg"
+            alt="leaf"
+          />
+          <p class="bold">100% Organic Guarantee</p>
+          <p class="gray-text">
+            We are committed to providing our customers with high-quality,
+            organic food.
+          </p>
+        </div>
+
+        <div class="feature-wrapper">
+          <img
+            src="img/section2/noun-delivery-truck.svg"
+            alt="leaf"
+          />
+          <p class="bold">Fast Delivery</p>
+          <p class="gray-text">
+            We know that your time is valuable, so we offer fast and reliable
+            delivery.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-section">
+      <h1>Try our delicious dishes</h1>
+
+      <div class="tab">
+        <button
+          class="tablinks"
+          onclick="menu(event, 'Starters')"
+        >
+          Starters
+        </button>
+        <button
+          class="tablinks"
+          onclick="menu(event, 'Dish')"
+          data-default="true"
+        >
+          Dishes
+        </button>
+        <button
+          class="tablinks"
+          onclick="menu(event, 'Desserts')"
+        >
+          Desserts
+        </button>
+        <button
+          class="tablinks"
+          onclick="menu(event, 'Drinks')"
+        >
+          Drinks
+        </button>
+      </div>
+
+      <div
+        id="Starters"
+        class="tabcontent"
+      >
+        <img
+          src="img/section3/noun-spoon-and-fork.svg"
+          alt="spoon and fork"
+        />
+        <p>No items found.</p>
+        <a href="">See all starters</a>
+      </div>
+
+      <div
+        id="Dish"
+        class="tabcontent class2"
+      >
+        <div class="tanan">
+          <div class="dishes-1st">
+            <img
+              class="main-pic"
+              src="img/Dishes/dishes-1st.jpg"
+              alt="first"
+            />
+            <div class="container-dish">
+              <div class="title">Spicy thai butternut squash soup</div>
+              <p class="description">
+                A fragrant blend of roasted butternut squash. Topped with
+                roasted butternut squash seeds.
+              </p>
+              <div class="cal">
+                <p class="p-gray">259 cal.</p>
+                <img
+                  class="cal-dish carrot"
+                  src="img/Dishes/noun-carrot.svg"
+                  alt="carrot"
+                />
+                <img
+                  class="cal-dish"
+                  src="img/Dishes/noun-spicy.svg"
+                  alt="spicy"
+                />
+                <div class="space"></div>
+                <p class="black">$7.80</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dishes-2nd">
+            <img
+              class="main-pic"
+              src="img/Dishes/dishes-2nd.jpg"
+              alt="second"
+            />
+            <div class="container-dish">
+              <div class="title">Avocado toast with fresh beet hummus</div>
+              <p class="description">
+                Creamy avocado topped with vibrant arugula and a house-made beet
+                hummus.
+              </p>
+              <div class="cal">
+                <p class="p-gray">375 cal.</p>
+                <img
+                  class="cal-dish"
+                  src="img/Dishes/noun-carrot.svg"
+                  alt="carrot"
+                />
+                <div class="space"></div>
+                <p class="black">$12.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dishes-3rd">
+            <img
+              class="main-pic"
+              src="img/Dishes/dishes-3rd.jpg"
+              alt="second"
+            />
+            <div class="container-dish">
+              <div class="title">Quinoa Burger</div>
+              <p class="description">
+                Savor the combination of hearty quinoa fresh tomatoes, and a
+                smear of hummus.
+              </p>
+              <div class="cal">
+                <p class="p-gray">559 cal.</p>
+                <div class="space"></div>
+                <p class="black">$12.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dishes-4th">
+            <img
+              class="main-pic"
+              src="img/Dishes/dishes-4th.jpeg"
+              alt="second"
+            />
+            <div class="container-dish">
+              <div class="title">Roasted chickpea and avocado salad</div>
+              <p class="description">
+                A refreshing salad featuring drizzled with a flavorful dressing.
+              </p>
+              <div class="cal">
+                <p class="p-gray">147 cal.</p>
+                <img
+                  class="cal-dish"
+                  src="img/Dishes/noun-carrot.svg"
+                  alt="carrot"
+                />
+                <div class="space"></div>
+                <p class="black">$8.50</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <a href="" class="a-dishes-button">See all dishes</a>
+      </div>
+
+      <div
+        id="Desserts"
+        class="tabcontent"
+      >
+      <div class="desserts-1st">
+        <img
+          class="main-pic"
+          src="img/Dessert/yogurt1.jpg"
+          alt="yogurt"
+        />
+        <div class="container-dish">
+          <div class="title">Yogurt with fruit</div>
+          <p class="description description-2">
+            Yogurt, strawberries, blueberries and muesli.
+          </p>
+          <div class="cal cal-2">
+            <p class="p-gray">125 cal.</p>
+            <img
+              class="cal-dish"
+              src="img/Dishes/noun-carrot.svg"
+              alt="carrot"
+            />
+            <div class="space"></div>
+            <p class="black">$
+              4.00</p>
+          </div>
+        </div>
+      </div>
+      <a href="" class="a-dessert-button">See all desserts</a>
+      </div>
+
+      <div
+        id="Drinks"
+        class="tabcontent"
+      >
+      <div class="drinks-1st">
+        <img
+          class="main-pic"
+          src="img/Drinks/drinks2.jpg"
+          alt="yogurt"
+        />
+        <div class="container-dish">
+          <div class="title">Pineaple juice</div>
+          <p class="description description-2">
+            Pineapple, cinnamon.
+          </p>
+          <div class="cal cal-2">
+            <p class="p-gray">53 cal.</p>
+            <img
+              class="cal-dish"
+              src="img/Dishes/noun-carrot.svg"
+              alt="carrot"
+            />
+            <div class="space"></div>
+            <p class="black">$
+              3.60</p>
+          </div>
+        </div>
+        
+      </div>
+      <a href="" class="a-drinks-button">See all drinks</a>
+      </div>
+      </div>
+    </section>
+
+    <section class="fourth-section">
+      <div class="discover-more-cont">
+        <div class="discover-4-pics">
+          <div class="break-fast-vegie">
+            <img class="breakfast" src="img/section4/breakfast-1st.jpg" alt="breakfast">
+            <img class="rice" src="img/section4/rice&vegetables-2nd.jpg" alt="rice&vegetables">
+          
+
+          </div>
+          <div class="bread-ingredients">
+            
+            <img class="bread" src="img/section4/bread-3rd.jpg" alt="bread">
+          <img class="ingredients" src="img/section4/ingredients-4th.jpg" alt="ingredients">
+
+          </div>
+        </div>
+        <div class="discover-text">
+          <div class="main-h1">Discover more
+            about us
+          </div>
+          <p class="first-content">Foodhouse is a restaurant that has something for everyone. The restaurant's chefs use fresh ingredients and innovative recipes to create dishes that are both delicious and visually appealing. In addition to its diverse menu, Foodhouse also offers a warm and inviting atmosphere. The restaurant's staff is friendly and attentive, and they're always happy to help you choose the perfect dish.</p>
+         <p class="second-content">Foodhouse has something to tantalize every palate. The restaurant's diverse menu, vibrant ambiance, and commitment to using only the freshest ingredients make it a culinary oasis in the heart of Tagbilaran City.</p>
+        </div>
+      </div>
+    </section>
+
+    <article class="article-1">
+      <h1 class="news">Latest news</h1>
+      <div class="two-article">
+        <div class="first-article">
+          <img class="citrus-img" src="img/article/citrus.jpg" alt="citrus">
+        <div class="text-citrus">
+          <p class="name">By
+            Emma Jones
+            •
+            Jan 25, 2021</p>
+          <p class="p-second-line">The multiple nutrients of citrus fruits. A powerful antioxidant.</p>
+           <p class="p-third-line">Organic citrus fruits are a good source of vitamin C  which is an important.</p>
+           <p class="discover">Discover more</p>
+          </div>
+        
+        </div>
+        <div class="second-article">
+          <img class="vegie-img" src="img/article/vegetables1.jpg" alt="citrus">
+        <div class="text-citrus">
+          <p class="name">By
+            John Smith
+            •
+            Jan 18, 2021</p>
+          <p class="p-second-line">Which can help protect against chronic diseases such as heart disease</p>
+           <p class="p-third-line"> Fruits and vegetables are a good source of antioxidants.</p>
+           <p class="discover">Discover more</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section class="section-4">
+      
+    </section>
+  </body>
+</html>

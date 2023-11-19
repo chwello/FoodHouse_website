@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,500&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafe;
+}
+
+.first-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/background.svg), url(./img/food.jpg);
+  background-position: 50% 50%, 100% 0%;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  position: static;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 13%;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.wrapper-info {
+  margin: 100px;
+  margin-left: 175px;
+  padding-top: 150px;
+}
+
+.enjoy-text h1 {
+  font-size: 65px;
+  color: #2b2f4e;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-style: inherit;
+}
+
+.first-section {
+  top: 0;
+  z-index: -2;
+}
+
+.enjoy-text p {
+  color: #7c809b;
+  margin-bottom: 100px;
+}
+
+.social-links img {
+  height: 30px;
+  padding: 0 10px;
+}
+
+.call a {
+  background-color: #2b2f4e;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+.call img {
+  padding: 0 10px;
+}
+
+.call a p {
+  font-size: 17px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.call {
+  margin-bottom: 140px;
+}
+
+.contact-num {
+  color: #7c809b;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  margin: 130px 230px;
+  padding: 70px;
+  border-radius: 14px;
+  box-shadow: rgba(215, 214, 214, 0.45) 0px 25px 20px -10px;
+}
+
+.bold {
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.feature-wrapper img {
+  height: 90px;
+}
+
+.gray-text {
+  color: #7c809b;
+  font-size: 13px;
+  padding: 0 20px;
+}
+
+.middle {
+  border-left: #f2f0f0 2px solid;
+  border-right: #f2f0f0 2px solid;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 17px 23px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+
+.tab button.active {
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: rgba(215, 214, 214, 0.45) 0px 25px 20px -10px;
+  color: black;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+ 
+  border-top: none;
+  height: 80vh;
+}
+
+.tab {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 190px;
+}
+
+.tab button {
+  color: #7c809b;
+  padding: 18px 30px;
+ 
+}
+
+#Starters {
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Starters img {
+  height: 200px;
+}
+
+#Starters p {
+  font-size: 17px;
+  color: #7c809b;
+  margin-bottom: 70px;
+}
+
+#Starters a {
+  padding: 19px 23px;
+  color: white;
+  background-color: #2b2f4e;
+  text-decoration: none;
+  border-radius: 28px;
+}
+
+.a-dishes-button{
+  padding: 19px 23px;
+  color: white;
+  background-color: #2b2f4e;
+  text-decoration: none;
+  border-radius: 28px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+ 
+}
+
+.a-dessert-button{
+  padding: 19px 23px;
+  color: white;
+  background-color: #2b2f4e;
+  text-decoration: none;
+  border-radius: 28px;
+  font-weight: 600;
+}
+
+.a-drinks-button{
+  padding: 19px 23px;
+  color: white;
+  background-color: #2b2f4e;
+  text-decoration: none;
+  border-radius: 28px;
+  font-weight: 600;
+}
+
+#Drinks{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Desserts{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.third-section > h1 {
+  margin-top: 190px;
+  margin-left: 190px;
+  font-size: 50px;
+}
+
+.cal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cal-dish{
+  height: 30px;
+  width: 20px;
+}
+
+.p-gray{
+  color: #a3a6c5;
+  font-size: 11px;
+  margin-right: 20px;
+ 
+}
+
+.tabcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+
+#Dish, .class2, .tanan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.dishes-1st,
+.dishes-2nd,
+.dishes-3rd,
+.dishes-4th {
+  margin: 10px;
+  background-color:#fafafe;
+  width: 18%;
+  height: 97%;
+  padding: 6px 2px;
+  border-radius: 10px;
+  box-shadow: rgba(215, 214, 214, 0.45) 0px 25px 20px -10px;
+  
+}
+
+.desserts-1st{
+  margin: 30px;
+  margin-left: 250px;
+  background-color:#fafafe;
+  height: 60%;
+  width: 18%;
+  border-radius: 10px;
+  box-shadow: rgba(215, 214, 214, 0.45) 0px 25px 20px -10px;
+}
+
+.drinks-1st{
+  margin: 30px;
+  margin-left: 250px;
+  background-color:#fafafe;
+  height: 60%;
+  width: 18%;
+  border-radius: 10px;
+  box-shadow: rgba(215, 214, 214, 0.45) 0px 25px 20px -10px;
+}
+
+.cal-2{
+ margin-top: -10px;
+ margin-left: -10px;
+}
+
+
+.main-pic{
+  display: flex;
+  width: 100%;
+  height: 175px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.description {
+  color: #a3a6c5;
+font-size: 13px;
+margin-bottom: 10px;
+height: 75px;
+width: 90%;
+}
+
+.description-2{
+  margin-top: -20px;
+}
+
+.title{
+  
+  font-style: justify;
+  font-size: 17px;
+  color: #2b2f4e;
+  font-weight: 500;
+  margin-bottom: 5px;
+  width: 90%;
+  margin-top: 10px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+
+
+.container-dish{
+  width: 100%;
+  margin-left: 15px;
+}
+
+.fix-margin{
+  margin-top: -1px;
+}
+
+.black{
+  color: black;
+}
+
+.space{
+  margin: 0 60px;
+}
+
+.carrot{
+  margin-right: 5px;
+}
+
+.quinoa-cont{
+  margin-top: 60px;
+}
+
+.tanan{
+  margin-top: 40px;
+}
+
+.discover-more-cont{
+  display: flex;
+  margin: 290px;
+  margin-top: 80px;
+}
+
+.discover-4-pics{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.break-fast-vegie, .bread-ingredients{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.break-fast-vegie{
+  margin-bottom: 25px;
+}
+
+
+.breakfast, .ingredients{
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+ 
+}
+
+.break-fast-vegie{
+  margin-left: -20px;
+}
+
+.bread-ingredients{
+  margin-left: 50px;
+}
+
+.rice{
+  margin-top: 40px;
+  width: 70%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+.breakfast{
+  margin-right: 20px;
+  width: 70%;
+}
+
+.ingredients{
+ width: 290px;
+}
+
+.bread{
+  margin-right: 20px;
+}
+
+.bread{
+
+  width: 70%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+.discover-text{
+  margin-left: 200px;
+  margin-top: 60px;
+  
+}
+
+.main-h1{
+  color: #2b2f4e;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.first-content{
+  margin-top: 30px;
+  margin-bottom: 35px;
+  color: #7c809b;
+  font-size: 17px;
+}
+
+.second-content{
+  color: #7c809b;
+  font-size: 17px;
+}
+
+.news{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #2b2f4e;
+}
+
+.first-article, .second-article{
+  display: flex;
+  background-color: white;
+  width: 590px;
+  height: 290;
+  box-shadow: rgba(215, 214, 214, 0.45) 0px 25px 20px -10px;
+  border-radius: 15px;
+  
+}
+
+.text-citrus{
+margin: 18px;
+}
+
+.name{
+  color: #7c809b;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.p-second-line{
+  color: #2b2f4e;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px
+}
+
+.p-third-line{
+  color: #7c809b;
+  font-size: 15px;
+  margin-bottom: 10px
+}
+
+
+.citrus-img{
+  width: 175px;
+  height: 230px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.vegie-img{
+  width: 189px;
+  height: 230px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.two-article{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 178px;
+  
+}
+
+.discover{
+  padding-left: 240px;
+  font-weight: 500;
+  color: #c0ca67;
+  line-height: 24px;
+  font-size: 17px;
+}
+
+
+
